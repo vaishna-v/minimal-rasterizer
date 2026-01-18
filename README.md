@@ -103,6 +103,18 @@ or framework.
 If you’re interested in software rendering, graphics math, or building a renderer
 from first principles, you may still find parts of this code useful.
 
+---
+
+## Third-Party Code
+
+This project uses `tgaimage.h` + `tgaimage.cpp` from Dmitry V. Sokolov’s *Tiny Renderer* project
+for basic image output functionality.
+
+`tgaimage.h` is not original work and is included solely for educational purposes.
+All credit for this component goes to its original author.
+
+---
+
 ## Acknowledgements
-- Dmitry V. Sokolov — Tiny Renderer
+- Dmitry V. Sokolov — *Tiny Renderer*
 
