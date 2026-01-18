@@ -1,0 +1,89 @@
+# =========================
+# Build artifacts
+# =========================
+build/
+bin/
+out/
+assets/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# REMOVE sdl3 files-
+build.bat
+SDL3_ttf.dll
+SDL3.dll
+build.bat
+rotate.cpp
+# =========================
+# Debug / temporary files
+# =========================
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+
+# =========================
+# IDE / editor files
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+*.user
+*.userprefs
+
+# =========================
+# OS-specific files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Renderer outputs
+# =========================
+*.tga
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.ppm
+
+# Video outputs
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Image sequences
+result/
+frames/
+output/
+renders/
+
+# =========================
+# Libraries / dependencies
+# =========================
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# =========================
+# CMake / build systems
+# =========================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.tar
+*.tar.gz
